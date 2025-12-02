@@ -346,8 +346,6 @@ st.sidebar.info("""
 2. Dataset 2: Disease classification
 3. Connection: Feature engineering bridge
 
-**Team:** [Your Team Name]
-**Model:** Random Forest Classifier
+**Team:** Healthcare 2A
+**Main Model:** Random Forest Classifier
 """)
-
-# Run with: streamlit run app.py
