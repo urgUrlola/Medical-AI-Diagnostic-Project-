@@ -334,18 +334,3 @@ elif page == "📈 Performance Metrics":
     ax.set_ylabel('Actual')
     ax.set_title('Example Confusion Matrix')
     st.pyplot(fig)
-
-# =============================================================================
-# Footer
-# =============================================================================
-st.sidebar.markdown("---")
-st.sidebar.markdown("### Project Info")
-st.sidebar.info("""
-**Two-Dataset Approach:**
-1. Dataset 1: Clinical pattern discovery
-2. Dataset 2: Disease classification
-3. Connection: Feature engineering bridge
-
-**Team:** Healthcare 2A
-**Main Model:** Random Forest Classifier
-""")
