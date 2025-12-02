@@ -116,8 +116,8 @@ if page == "📊 Dataset Overview":
         'Step': ['Dataset 1 Analysis', 'Pattern Discovery', 'Feature Engineering', 'Dataset 2 Enhancement'],
         'Description': [
             'Analyzed clinical patterns in GI data',
-            'Found relationships between markers and symptoms',
-            'Created new features based on patterns',
+            'Found relationships between features and symptoms',
+            'Created new features for Autoimmune Diagnostic Dataset based on patterns',
             'Improved disease classification accuracy'
         ],
         'Impact': ['Found data quality issues', 'Identified 3 patient clusters', 'Added 4 new features', '+X% accuracy improvement']
@@ -136,9 +136,9 @@ elif page == "🔬 Model Insights":
     
     # Simulated feature importance from your analysis
     feature_importance_data = {
-        'Feature': ['CRP_ESR', 'Fecal_Calprotectin', 'Genetic_Markers', 'Age', 
-                   'Stress_Level', 'BMI', 'Physical_Activity', 'Bowel_Movement_Frequency'],
-        'Importance': [0.18, 0.16, 0.14, 0.12, 0.10, 0.09, 0.08, 0.07]
+        'Feature': ['Body_Weight', 'CRP_ESR', 'Fecal_Calprotectin', 'BMI','Microbiome_Index', 
+                    'Age', 'Bowel_Movement_Frequency', 'Stress_Level','Genetic_Markers', 'Physical_Activity' ],
+        'Importance': [0.079, 0.078, 0.077, 0.073, 0.069, 0.067, 0.045, 0.042,0.042,0.039]
     }
     
     importance_df = pd.DataFrame(feature_importance_data)
