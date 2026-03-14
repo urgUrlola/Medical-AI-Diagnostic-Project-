@@ -34,8 +34,9 @@ Final Group Members:
    - LinkedIn: https://www.linkedin.com/in/arushi-singhal1/
    - GitHub: singhalarushi06
 - Damilola Babajide
-   - LinkedIn: 
-   - GitHub:
+   - Email: arushi.singhal@rutgers.edu
+   - LinkedIn: www.linkedin.com/in/damilola-babajide-370567318
+   - GitHub: urgUrlola
 
 Mentor:
 - Matthew Slomka
